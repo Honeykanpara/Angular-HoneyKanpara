@@ -26,3 +26,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 "# Angular-HoneyKanpara" 
+
+Follow instructions:
+1. run npm install first to install node modules.
+2. run npm start to run the application.
+3. load following url http://localhost:4200 from ur local system.
