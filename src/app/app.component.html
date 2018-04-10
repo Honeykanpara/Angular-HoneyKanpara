@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <div style="text-align:center">
+    <h2>
+      Test 1
+    </h2>
+  </div>
+  <input type="number" placeholder="Enter amount" [(ngModel)]="amount" maxlength="250">
+  <button type="submit" (click)="calculate()">Calculate</button>
+  <div *ngIf="count !=0"> No of coins required: {{count}}</div>
+  <div *ngIf="count !=0"> Breakup: {{breakUp}}</div>
+</div>
+<div>
+  <div style="text-align:center">
+    <h2>
+      Test 2
+    </h2>
+  </div>
+  <input type="text" placeholder="Enter Input to be converted" [(ngModel)]="searchText" maxlength="250">
+  <button type="submit" (click)="transform()">Convert</button>
+  <div *ngIf="outputText !=''"> Transformed output is: {{outputText}}</div>
+</div>
